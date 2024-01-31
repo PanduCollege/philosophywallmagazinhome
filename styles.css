@@ -147,7 +147,7 @@ h2 {
     perspective: 1px;
     transform-style: preserve-3d; 
     font-family: 'Overlock', Arial, Helvetica, sans-serif;
-    background-color: black;
+    
   }
 
   @media (max-width: 450px) {
@@ -159,5 +159,18 @@ h2 {
     }
     h2{
       font-size: 15px;
+    }
+    h3{
+      padding-top: 120px;
+      bottom: 0;
+      color: black;
+      text-align: center;
+      font-size: 10px;;
+      
+    }
+  
+    h3 a{
+      text-decoration: none;
+      color: orangered;
     }
   }
