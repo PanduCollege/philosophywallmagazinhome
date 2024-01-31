@@ -163,7 +163,7 @@ h2 {
     h3{
       padding-top: 120px;
       bottom: 0;
-      color: black;
+      color: blue;
       text-align: center;
       font-size: 10px;;
       
@@ -173,4 +173,30 @@ h2 {
       text-decoration: none;
       color: orangered;
     }
+  .deep{ 
+    display: block;
   }
+
+  .turn{
+    display: none;
+  }
+}
+@media screen and (orientation:landscape) {
+  .deep{ 
+      display: none;
+  }
+  .turn{
+      display: block;
+  }
+  body{
+      background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(img/e.jpg) top center;
+  }
+  h1{
+      color: white;
+      text-align: center;
+      align-items: center;
+      font-size: 45px;
+      padding-top: 12%;
+      padding-left: 10%;
+  }
+}
